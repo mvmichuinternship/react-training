@@ -3,6 +3,7 @@ import cn from "clsx";
 import IconButton from "./IconButton";
 import Avatar from "./Avatar";
 
+
 function Card({
   className,
   cardType,
@@ -175,7 +176,7 @@ function Card({
         <>
         <div className={cn("w-72 h-44 flex shadow-md bg-white")}>
           <div className={cn("w-48 bg-amber-100 flex flex-col z-1 text-center justify-center items-start px-4", classNameLeft)}>
-            <div className="text-sm ">{infoData}</div>
+            <div className="text-sm satisfy-regular">{infoData}</div>
             <div className="text-xl">{infoName}</div>
             <IconButton
               className={cn("w-fit bg-amber-400 rounded-md text-white text-xs mt-4", buttonClass)}
@@ -188,7 +189,7 @@ function Card({
           <div className={cn("w-24 bg-amber-400", classNameRight)}></div>
           
         </div>
-        <Avatar imgAlt={imgAlt} imgSrc={imgSrc} className={"relative bottom-40 left-[60px] w-[230px]  z-500"}/>
+        <Avatar imgAlt={imgAlt} imgSrc={imgSrc} className={"relative bottom-40 left-[64px] w-[224px]  z-500"}/>
 
         </>
         
